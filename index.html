@@ -11,56 +11,515 @@
     <link rel="stylesheet" href="css/slick-theme.css">
 </head>
 <body>
-    <div>               <!--Section For Navigationbar-->
-        <section id="home_section">
-            <!--Here Code-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled">Disabled</a>
-                    </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
-                </div>
-              </nav>
-        </section>
-    </div>
-    <!--Here Your Code-->
+  <div class="container">                           <!--Css container-->
+    <div class="">
+        <section id="header_section">  
+            
+            <div class="row">
 
-    <div class="container" id="header_top">
-        <div class="row">
-            <div class="header_item">
-                <p>Item One</p>
-                <p>Item Two</p>
-                <p>Item Three</p>
+                    <div class="col-md-6">
+                        <div class="headr_top">
+                            <div class="header_left">
+                                বাংলাদেশ জাতীয় তথ্য বাতায়ন
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <div class="headr_top">
+                            <div class="header_right">
+                                ৯ ফাল্গুন, ১৪২৯ | English
+                            </div>
+                        </div>
+                        
+                    </div>
+
+            </div><!--Header Section-->
+           
+            <div class="hr"></div>
+        </section>
+
+
+        <section id="Home_Nav">
+            <div class="row">
+                <div class="col-md-12 col-sm-6">
+                    <div class="home_navbar">
+                        <nav class="navbar navbar-light bg-light justify-content-between">
+                            <a class="navbar-brand">
+                                <img src="image/WebImage/logo_bn.png" alt="mainLogo">
+                            </a>
+                            <form class="form-inline">
+                              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                              <span id="a2i-logo-footer">       <!--searchbar right logo-->
+                                <img src="image/WebImage/a2i-logo-footer.png" alt="">
+                              </span>
+        
+                              <div class="sathe_thakun">
+                                <p>সাথে থাকুন:</p>
+                                <img src="image/WebImage/facebook-icon.png" alt="">
+                                <img src="image/WebImage/twitter-blue-icon.png" alt="">
+                                <img src="image/WebImage/youtube-icon.png" alt="">
+                                <img src="image/WebImage/gplus-icon.png" alt="">
+                              </div>
+                            </form>
+                          </nav>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+
+        <section id="home_link">
+            <div class="row">
+                <div class="btn" role="group" aria-label="Button group with nested dropdown">
+                    <button type="button" class="btn btn-success custom_main_button">হোম</button>
+                    <div class="btn-group" role="group">
+                      <button id="btn" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        বাংলাদেশ সম্পর্কিত 
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="btn">
+                        <a class="dropdown-item custom_btn" href="#">Dropdown link</a>
+                        <a class="dropdown-item custom_btn" href="#">Dropdown link</a>
+                      </div>
+                    </div>
+                    <button type="button" class="btn btn-success custom_main_button">ই-সেবাসমূহ</button>
+                    <button type="button" class="btn btn-success custom_main_button">সেবাখাত</button>
+                    <div class="btn-group" role="group">
+                        <button id="btn" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ব্যবসা-বাণিজ্য
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="btn">
+                          <a class="dropdown-item custom_btn" href="#">Dropdown link</a>
+                          <a class="dropdown-item custom_btn" href="#">Dropdown link</a>
+                        </div>
+                  </div>
+                  <button type="button" class="btn btn-success custom_main_button">বৈদেশিক বিনিয়োগ</button>
+                  <button type="button" class="btn btn-success custom_main_button">আইন-বিধি</button>
+                  <button type="button" class="btn btn-success custom_main_button">তথ্য বাতায়ন</button>
+                  <button type="button" class="btn btn-success custom_main_button">সেবাকুঞ্জ</button>
+                  <div class="btn_next">
+                    <button type="button" class="btn btn-success custom_main_button">ফরমস</button>
+                    <button type="button" class="btn btn-success custom_main_button">তথ্য বাতায়ন হ্যাকাথন</button>
+                    <button type="button" class="btn btn-success custom_main_button">অফিস সংযুক্তির আবেদন ফরম</button>
+                  </div>
+
+            </div>
+        </section>
+
+
+        <section id="home_body">
+            <div class="section_One">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="padmabanner">
+                            <img src="image/WebImage/padmabanner.jpeg" alt="padmabanner">
+                        </div>
+
+                        <!--This section For tab pills-->
+
+                        <div class="custom">
+                          <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                              <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">First Panel</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">Second Panel</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">Third Panel</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="nav-link" data-toggle="tab" href="#tabs-4" role="tab">Fourth Panel</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" data-toggle="tab" href="#tabs-5" role="tab">Fifth Panel</a>
+                            </li>
+                          </ul><!-- Tab panes -->
+                          
+                          <div class="tab-content tabpanel">
+                            <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                              <div class="row">
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/tin.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/transport.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/postal.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/your_question.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/ticket_train.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/health.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="row">
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/invoice_forms.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/govt_forms.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/agriculture (1).png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/radio_tv.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/digital_center.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div class="tab-pane" id="tabs-2" role="tabpanel">
+                              <div class="row">
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/agriculture (2).png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/icon-admission (1).png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/invoice_forms.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/ticket_train.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/govt_admision.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/passport_visa.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="row">
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/agriculture (3).png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/utility.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/online_application.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/birth_certificate.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/training_1.png.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <div class="aykor">
+                                    <img src="image/WebImage/postal.png" alt="">
+                                    <p>
+                                      <a href="">Text Here</a>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div class="tab-pane" id="tabs-3" role="tabpanel">
+                              <div class="row">
+                                <div class="col-md-2">
+                                  <img src="image/WebImage/agriculture (3).png" alt="">
+                                  <p>
+                                    <a href="">Test Here</a>
+                                  </p>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <img src="image/WebImage/call_center.png" alt="">
+                                  <p>
+                                    <a href="">Test Here</a>
+                                  </p>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <img src="image/WebImage/agriculture (1).png" alt="">
+                                  <p>
+                                    <a href="">Test Here</a>
+                                  </p>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <img src="image/WebImage/mobile_service.png" alt="">
+                                  <p>
+                                    <a href="">Test Here</a>
+                                  </p>
+                                </div>
+
+                                <div class="col-md-2">
+                                  <img src="image/WebImage/helpdesk.png" alt="">
+                                  <p>
+                                    <a href="">Test Here</a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-4" role="tabpanel">
+                              <p>Fourth Panel</p>
+                            </div>
+                            <div class="tab-pane" id="tabs-5" role="tabpanel">
+                              <p>Fifth Panel</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="list_item">
+                          <h1>উদ্যোগ</h1>
+                          <ul class="info_u">
+                            <li>বাংলাদেশ সরকারের সপ্তম পঞ্চবার্ষিক পরিকল্পনা (২০১৬-২০২০) (১৩-০৬-২০১৬)</li>
+                            <div></div>
+                            <li>বাংলাদেশ সরকারের সপ্তম পঞ্চবার্ষিক পরিকল্পনা (২০১৬-২০২০) (১৩-০৬-২০১৬)</li>
+                            <div></div>
+                            <li>বাংলাদেশ সরকারের সপ্তম পঞ্চবার্ষিক পরিকল্পনা (২০১৬-২০২০) (১৩-০৬-২০১৬)</li>
+                            <div></div>
+                            <li>বাংলাদেশ সরকারের সপ্তম পঞ্চবার্ষিক পরিকল্পনা (২০১৬-২০২০) (১৩-০৬-২০১৬)</li>
+                            <div></div>
+                            <li>বাংলাদেশ সরকারের সপ্তম পঞ্চবার্ষিক পরিকল্পনা (২০১৬-২০২০) (১৩-০৬-২০১৬)</li>
+                            <div></div>
+                          </ul>
+                        </div>
+
+
+                        <div class="all_banners">
+                          <div class="row">
+                            <div class="col-md-4">
+                              <a href="">
+                                <img src="image/WebImage/forms_portal_logo (1).png" alt="">
+                              </a>
+                            </div>
+                            
+                            <div class="col-md-4">
+                              <a href="">
+                                <img src="image/WebImage/TP main-logo.png" alt="">
+                              </a>
+                            </div>
+                            
+                            <div class="col-md-4">
+                              <a href="">
+                                <img src="image/WebImage/vision_2021_bn.png" alt="">
+                              </a>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-4">
+                              <a href="">
+                                <img src="image/WebImage/Konnect Logo.png" alt="">
+                              </a>
+                            </div>
+                            
+                            <div class="col-md-4">
+                              <a href="">
+                                <img src="image/WebImage/visit-bangladesh-logo (1).png" alt="">
+                              </a>
+                            </div>
+                            
+                            <div class="col-md-4">
+                              <a href="">
+                                <img src="image/WebImage/MP logo.png" alt="">
+                              </a>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-4">
+                              <a href="">
+                                <img src="image/WebImage/logo_0_0.png" alt="">
+                              </a>
+                            </div>
+
+                            <div class="col-md-4">
+                              <a href="">
+                                <img src="image/WebImage/infokosh-logo (1).png" alt="">
+                              </a>
+                            </div>
+
+                            <div class="col-md-4">
+                              <a href="">
+                                <img src="image/WebImage/services_portal_bn.png" alt="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+
+                    </div>    <!--col-md-8 end-->
+                    <div class="col-md-4">
+                        <div class="img_cls">
+                            <img src="image/WebImage/bangladesh-portal--batton-bangla.png" alt="">
+                            <img src="image/WebImage/Jonotar-Sorkar-banner-Bangl (1).jpg" alt="">
+                            <img src="image/WebImage/mygov_bn.jpg" alt="">
+                            <img src="image/WebImage/discount_bn.jpg" alt="">
+                            <img src="image/WebImage/Bangladesh-Directory.jpg" alt="">
+                            <img src="image/WebImage/Tamplate_govtjob_bn.png" alt="">
+                            <img src="image/WebImage/Tamplate_guard_bn.png" alt="">
+                            <img src="image/WebImage/prottyon.jpeg" alt="">
+                            <img src="image/WebImage/Tamplate_policy_bn.png" alt="">
+                            <img src="image/WebImage/Tamplate_Apps_bn (5).png" alt="">
+                            <img src="image/WebImage/Tamplate_inherit_bn (4).png" alt="">
+                            <img src="image/WebImage/Tamplate_fund_bn.png" alt="">
+                            <img src="image/WebImage/Tamplate_Dictonary_bn.png" alt="">
+                            <img src="image/WebImage/Tamplate_DistrictBranding_b (3).png" alt="">
+                            <img src="image/WebImage/Tamplate_security_bn (1).png" alt="">
+                        </div>
+
+                        <div class="heading_box searchbox">
+                          <h3>
+                            সকল বাতায়ন
+                          </h3>
+                        </div>
+                        <div class="searchbox">
+                          <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                          </form>
+                        </div>
+                    </div>    <!--Col-md-4 End-->
+                </div>
+            </div>
+        </section>
     </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>

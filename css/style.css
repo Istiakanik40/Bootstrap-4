@@ -1,15 +1,109 @@
-*{
-    padding: 0;
-    margin: 0;
+#header_section{
+    background-color:rgb(142, 16, 173);
+}
+.hr{
+    border-bottom: 1px solid red;
 }
 
-#header_top{
-    background-color: blueviolet;   
-}
-
-.list_item li{
+.headr_top div{
     display: inline-block;
     color: aliceblue;
-    padding: 0px 1px 2px 53px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.headr_top{
+    padding: 1px 15px 1px 15px;
+}
+
+
+.header_right{
+     float: right;
+}
+
+
+#a2i-logo-footer{
+    padding: 20px;
+    border-right: 2px solid rgb(155, 154, 152);
+}
+
+.sathe_thakun{
+    padding-left: 20px;
+}
+
+.sathe_thakun p{
+    padding-bottom: 0;
+    margin: 0;
     font-size: 12px;
+    color: rgb(129, 50, 202);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.custom_main_button{
+    color: azure;
+    padding: 10px;
+    border-right: 1px solid gray;
+}
+
+.btn_next{
+    padding-top: 10px;
+}
+
+
+.custom_main_button{
+    background-color: aquamarine;
+}
+
+.padmabanner{
+    border: 2px solid red;
+    padding: 10px;
+    width: 93%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.padmabanner img{
+    width: 100%;
+}
+
+.img_cls img{
+    width: 315px;
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+.tabpanel{
+    padding: 10px;
+    width: 93%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.list_item h1{
+    color: blueviolet;
+    padding-bottom: 10px;
+}
+
+.list_item ul{
+    color: blue;
+    font-size: 18px;
+}
+
+.list_item div{
+    border: 1px solid greenyellow;
+    width: 80%;
+}
+
+
+.all_banners img{
+    width: 253.33px;
+    height: 100px;
+}
+
+.searchbox{
+    padding-left: 8px;
+}
+
+.heading_box{
+    color: blueviolet;
 }
