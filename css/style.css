@@ -43,6 +43,7 @@
     color: azure;
     padding: 10px;
     border-right: 1px solid gray;
+    font-weight: 400 !important;
 }
 
 .btn_next{
@@ -107,3 +108,167 @@
 .heading_box{
     color: blueviolet;
 }
+
+#mujib{
+    color: white;
+    background-color: rgb(44, 131, 4);
+    width: 315px;
+    padding-bottom: 0;
+    margin-bottom:0 ;
+}
+
+#mujib-1{
+    color: white;
+    background-color: rgb(44, 131, 4);
+    padding-bottom: 0;
+    width: 100%;
+    margin-bottom:0 ;
+}
+
+.iframs_three{
+    padding: 3px;
+    margin-right: 30px;
+}
+
+.footer_img img{
+    width: 100%;
+}
+
+.custom_nav_footer a{
+    border-right: solid 1px #c8c8c8;
+}
+
+.form_control_custom{
+    width: 100% !important;
+}
+
+
+.custom_col{
+    width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.custom_col_4{
+    width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.custom_ifram{
+    width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important; 
+}
+
+.customfram{
+    width: 250px !important;
+}
+
+.custom_form{
+    width: 100% !important;
+}
+
+.three_video{
+    width: 315px !important;
+    height: 315px !important;
+}
+
+
+
+
+
+
+
+/*This is mediaQuery section
+*/
+@media (max-width: 575.98px) { 
+    .headr_top div {
+        display: inline-block;
+        color: aliceblue;
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: -24px;
+    }
+
+
+    .form_control_custom {
+        width: 83% !important;
+        margin-left: 5px;
+    }
+
+    .custom_main_button{
+        color: azure;
+        padding: 10px;
+        border-right: 1px solid gray;
+        font-weight: 250 !important;
+        border-radius: 84.25rem !important;
+        margin-bottom: 10px;
+    }
+
+    .custom_col {
+        width: 16% !important;
+        padding-left: 31px !important;
+        padding-right: 10px !important;
+    }
+
+    .all_banners img{
+        width: 177.33000000000004px;
+        height: 100px;
+    }
+
+    .custom_col_4 {
+        width: 33% !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    
+    .customfram {
+        width: 164px !important;
+        height: auto;
+    }
+
+    .custom_ifram {
+        width: 33% !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .img_cls img {
+        width: 540px;
+        height: 120px;
+        padding-bottom: 10px;
+    }
+    .custom_form {
+        width: 80% !important;
+    }
+
+    .three_video {
+        width: 547px !important;
+        height: 315px !important;
+    }
+
+    #mujib {
+        color: white;
+        background-color: rgb(44, 131, 4);
+        width: 547px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+@media (min-width: 1200px) { 
+    
+ }
